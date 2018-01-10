@@ -1,0 +1,458 @@
+
+/*--------------------------index-------------------------------*/
+
+body  {margin:0;
+	font-family: "Calibri";
+	color: gray;
+	background-color: #EFF5FB;}
+/* ==================== レイアウト ==================== */
+#container{width: 100%;
+			margin: auto;
+			height:100%;
+			background-color:#FAFAFA;
+			box-shadow: 1px 2px 3px rgba(0,0,0,0.4);
+			margin-bottom:10px;}
+/* ==================== ヘッダー ==================== */
+#header{margin:0;
+	height:50px;
+	background-color: white;
+	line-height:50px;
+	border-bottom:solid 1px gray;
+	width: 100%;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+	font-size:15px;
+}
+.header_wrap{width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.buttonHeader{
+    height:92%;
+    font-weight: 0;
+    background-color: white;
+    border-style: none;
+    font-size:15px;
+    color:gray;
+    width:120px;
+    border-bottom:3px solid white;
+}
+button.buttonHeader:hover {
+	color:#58ACFA;
+    border-bottom:3px solid #58ACFA;
+}
+/* ==================== コンテンツ ==================== */
+#content {width: 100%;
+	min-height:550px;
+	margin-top:3px;
+}
+/* ==================== フッター ==================== */
+#footer	{width: 100%;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-top:solid 1px #E6E6E6;
+}
+
+.footer_wrap {width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* ==================== その他 ==================== */
+table {border-collapse: collapse;}
+
+#image_filter img {border:none;}
+
+#image_filter a:hover{
+opacity:0.8;
+filter: alpha(opacity=80);
+-ms-filter: "alpha( opacity=80 )";}
+
+a:hover{
+	opacity:0.8;
+}
+
+
+
+
+
+
+
+/*--------------------------new-----------------------------------------*/
+
+body  {margin:0;
+	font-family: "Calibri";
+	color: gray;
+	background-color: #EFF5FB;}
+/* ==================== レイアウト ==================== */
+#container{width: 100%;
+			margin: auto;
+			height:100%;
+			background-color:#FAFAFA;
+			box-shadow: 1px 2px 3px rgba(0,0,0,0.4);
+			margin-bottom:10px;}
+/* ==================== ヘッダー ==================== */
+#header{margin:0;
+	height:50px;
+	background-color:white;
+	line-height:50px;
+	border-bottom:solid 1px gray;
+	width: 100%;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+	font-size:15px;
+}
+.header_wrap{width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+button.buttonHeader{
+    height:92%;
+    font-weight: 0;
+    background-color:white;
+    border-style: none;
+    font-size:15px;
+    color:gray;
+    width:120px;
+    border-bottom:3px solid white;
+}
+button.buttonHeader:hover {
+	color:#58ACFA;
+    border-bottom:3px solid #58ACFA;
+}
+/* ==================== コンテンツ ==================== */
+#content {width: 100%;
+	margin-top:30px;
+	margin-bottom:30px;
+	min-height:550px;
+}
+.content_wrap {width:580px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.content_title{
+	width:100%;
+	height:50px;
+	font-size:26px;
+	text-align:center;
+}
+.content_new{width:100%;
+	min-height:100px;
+}
+button.buttonTweet {
+    font-size: 14px;
+    margin-top:5px;
+    font-weight: 0;
+    padding: 4px 20px 4px 20px;
+    float:right;
+    color: #848484;
+    border-radius:20px;
+    border-style: none;
+    color:white;
+    box-shadow: 1px 1px 1px 1px #848484;
+    background-color:#58ACFA;
+    border:1px solid #A9BCF5;
+}
+button.buttonTweet:hover {
+    /* 透明度を20%に指定 */
+    opacity: 0.8;
+}
+/* ==================== フッター ==================== */
+#footer	{width: 100%;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-top:solid 1px #E6E6E6;
+}
+
+.footer_wrap {width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* ==================== その他 ==================== */
+table {border-collapse: collapse;}
+
+#image_filter img {border:none;}
+
+#image_filter a:hover{
+opacity:0.8;
+filter: alpha(opacity=80);
+-ms-filter: "alpha( opacity=80 )";}
+
+a:hover{
+	opacity:0.8;
+}
+
+
+
+
+
+
+
+/*--------------------------show-------------------------------*/
+
+body  {margin:0;
+	font-family: "Calibri";
+	color: gray;
+	background-color: #EFF5FB;}
+/* ==================== レイアウト ==================== */
+#container{width: 100%;
+			margin: auto;
+			height:100%;
+			background-color:#FAFAFA;
+			box-shadow: 1px 2px 3px rgba(0,0,0,0.4);
+			margin-bottom:10px;}
+/* ==================== ヘッダー ==================== */
+#header{margin:0;
+	height:50px;
+	background-color:white;
+	line-height:50px;
+	border-bottom:solid 1px gray;
+	width: 100%;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+	font-size:15px;
+}
+.header_wrap{width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+button.buttonHeader{
+    height:92%;
+    font-weight: 0;
+    background-color:white;
+    border-style: none;
+    font-size:15px;
+    color:gray;
+    width:120px;
+    border-bottom:3px solid white;
+}
+button.buttonHeader:hover {
+	color:#58ACFA;
+    border-bottom:3px solid #58ACFA;
+}
+/* ==================== コンテンツ ==================== */
+#content {width: 100%;
+	margin-top:30px;
+	min-height:550px;
+	margin-bottom:30px;
+}
+.content_wrap {width:580px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.content_title{
+	width:100%;
+	height:50px;
+	font-size:26px;
+	text-align:center;
+}
+.content_body{width:100%;
+	min-height:100px;
+	border-left:solid 1px #D8D8D8;
+	border-bottom:solid 1px #D8D8D8;
+	border-right:solid 1px #D8D8D8;
+}
+.content_tweet{width:440px;
+	float:left;
+	padding:5px;
+}
+.content_button{width:100px;
+	padding:5px;
+	float:right;
+}
+button.button1 {
+	font-size:14px;
+    font-weight: 0;
+    padding: 4px 25px 4px 25px;
+    color: #848484;
+    border-style: none;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    background-color:#E0E6F8;
+    border:1px solid blue;
+}
+button.button1:hover {
+    /* 透明度を20%に指定 */
+    opacity: 0.8;
+}
+button.button2 {
+	margin-top:10px;
+	font-size:14px;
+    font-weight: 0;
+    padding: 4px 25px 4px 25px;
+    color: #848484;
+    border-style: none;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    background-color:#FBEFF2;
+    border:1px solid red;
+}
+button.button2:hover {
+    /* 透明度を20%に指定 */
+    opacity: 0.8;
+}
+/* ==================== フッター ==================== */
+#footer	{width: 100%;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-top:solid 1px #E6E6E6;
+}
+
+.footer_wrap {width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* ==================== その他 ==================== */
+table {border-collapse: collapse;}
+
+#image_filter img {border:none;}
+
+#image_filter a:hover{
+opacity:0.8;
+filter: alpha(opacity=80);
+-ms-filter: "alpha( opacity=80 )";}
+
+a:hover{
+	opacity:0.8;
+}
+
+
+
+/*--------------------------list---------------------------------*/
+
+
+body  {margin:0;
+	font-family: "Calibri";
+	color: gray;
+	background-color: #EFF5FB;}
+/* ==================== レイアウト ==================== */
+#container{width: 100%;
+			margin: auto;
+			height:100%;
+			background-color:#FAFAFA;
+			box-shadow: 1px 2px 3px rgba(0,0,0,0.4);
+			margin-bottom:10px;}
+/* ==================== ヘッダー ==================== */
+#header{margin:0;
+	height:50px;
+	background-color:white;
+	line-height:50px;
+	border-bottom:solid 1px gray;
+	width: 100%;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+	font-size:15px;
+}
+.header_wrap{width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+button.buttonHeader{
+    height:92%;
+    font-weight: 0;
+    background-color:white;
+    border-style: none;
+    font-size:15px;
+    color:gray;
+    width:120px;
+    border-bottom:3px solid white;
+}
+button.buttonHeader:hover {
+	color:#58ACFA;
+    border-bottom:3px solid #58ACFA;
+}
+/* ==================== コンテンツ ==================== */
+#content {width: 100%;
+	margin-top:30px;
+	min-height:550px;
+	margin-bottom:30px;
+}
+.content_wrap {width:580px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.content_title{
+	width:100%;
+	height:50px;
+	font-size:26px;
+	text-align:center;
+}
+.content_body{width:100%;
+	min-height:100px;
+	border-left:solid 1px #D8D8D8;
+	border-bottom:solid 1px #D8D8D8;
+	border-right:solid 1px #D8D8D8;
+}
+.content_tweet{width:440px;
+	float:left;
+	padding:5px;
+}
+.content_button{width:100px;
+	padding:5px;
+	float:right;
+}
+button.button1 {
+	font-size:14px;
+    font-weight: 0;
+    padding: 4px 25px 4px 25px;
+    color: #848484;
+    border-style: none;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    background-color:#E0E6F8;
+    border:1px solid blue;
+}
+button.button1:hover {
+    /* 透明度を20%に指定 */
+    opacity: 0.8;
+}
+button.button2 {
+	margin-top:10px;
+	font-size:14px;
+    font-weight: 0;
+    padding: 4px 25px 4px 25px;
+    color: #848484;
+    border-style: none;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    background-color:#FBEFF2;
+    border:1px solid red;
+}
+button.button2:hover {
+    /* 透明度を20%に指定 */
+    opacity: 0.8;
+}
+/* ==================== フッター ==================== */
+#footer	{width: 100%;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-top:solid 1px #E6E6E6;
+}
+
+.footer_wrap {width:980px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* ==================== その他 ==================== */
+table {border-collapse: collapse;}
+
+#image_filter img {border:none;}
+
+#image_filter a:hover{
+opacity:0.8;
+filter: alpha(opacity=80);
+-ms-filter: "alpha( opacity=80 )";}
+
+a:hover{
+	opacity:0.8;
+}
+
+
+
+
+/*-----------------------------_form-----------------------------*/
+.aaaa{
+	font-size:14px;
+	border:solid 1px #A4A4A4;
+	padding:5px;
+	width:570px;
+}

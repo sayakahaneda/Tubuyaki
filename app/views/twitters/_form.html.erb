@@ -1,0 +1,24 @@
+<%= form_with(model: @twitter, local: true ,url: twitter_choose_new_or_edit ) do |form| %>
+  <% if @twitter.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= @twitter.errors.count %>件のエラーがあります。</h2>
+      
+      <ul>
+         <% @twitter.errors.full_messages.each do |msg| %>
+         <li><%= msg %></li>
+         <% end %>
+      </ul>
+    </div>
+  <% end %>
+  
+  <!--<div class="twitter_title">-->
+    <div class="content_body">
+    <!--<%= form.label :content %>-->
+    <%= form.text_area :content, size: "80x5", placeholder: "いまどうしてる？", class: "aaaa" %>
+			<!--	<button class="buttonTweet" type="submit">ツイート</button>-->
+
+  </div>
+    <%= form.submit "tweet"%>
+  <% end %>
+
+<%= link_to "ツイート一覧画面にもどる", twitters_path %>

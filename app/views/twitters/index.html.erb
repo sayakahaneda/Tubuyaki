@@ -1,0 +1,20 @@
+<div id="content">
+	<div class="content_wrap">
+		<div class="content_title" style="border-bottom:solid 1px #D8D8D8;">
+			つぶやき一覧
+		</div>
+		
+		<% @twitters.each do |twitter| %>
+		  <div class="content_body">
+			  <div class="content_tweet">
+			  	<%= twitter.content %>
+			  </div>
+			  <div class="content_button">
+				<button class="button1"><%= link_to "編集", edit_twitter_path(twitter.id) %></button>
+                <button class="button1"><%= link_to '削除', twitter_path(twitter.id), method: :delete ,data: { confirm: '本当に削除していいですか？' } %></button>
+			  </div>
+		   <div style="clear:both;"></div>
+		</div>
+		<% end %>
+	</div>
+</div>
